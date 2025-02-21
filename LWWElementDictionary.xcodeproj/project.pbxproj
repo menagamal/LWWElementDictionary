@@ -21,6 +21,8 @@
 		D04B3EAE2D68C1F500D0DB71 /* ThreadSafeLWWElementDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B3EAD2D68C1F500D0DB71 /* ThreadSafeLWWElementDictionary.swift */; };
 		D04B3EB02D68CB8500D0DB71 /* ThreadSafeLWWElementDictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B3EAF2D68CB8500D0DB71 /* ThreadSafeLWWElementDictionaryTests.swift */; };
 		D04B3EB42D68CC8400D0DB71 /* LWWDictionaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B3EB32D68CC8400D0DB71 /* LWWDictionaryViewModel.swift */; };
+		D04B3EB62D68CCCA00D0DB71 /* LWWDictionaryViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B3EB52D68CCCA00D0DB71 /* LWWDictionaryViewModelTests.swift */; };
+		D04B3EB92D68CCE200D0DB71 /* ViewModelDelegateMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B3EB82D68CCE200D0DB71 /* ViewModelDelegateMock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		D04B3EAD2D68C1F500D0DB71 /* ThreadSafeLWWElementDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadSafeLWWElementDictionary.swift; sourceTree = "<group>"; };
 		D04B3EAF2D68CB8500D0DB71 /* ThreadSafeLWWElementDictionaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadSafeLWWElementDictionaryTests.swift; sourceTree = "<group>"; };
 		D04B3EB32D68CC8400D0DB71 /* LWWDictionaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LWWDictionaryViewModel.swift; sourceTree = "<group>"; };
+		D04B3EB52D68CCCA00D0DB71 /* LWWDictionaryViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LWWDictionaryViewModelTests.swift; sourceTree = "<group>"; };
+		D04B3EB82D68CCE200D0DB71 /* ViewModelDelegateMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelDelegateMock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,8 +128,10 @@
 		D04B3E8C2D68BD1400D0DB71 /* LWWElementDictionaryTests */ = {
 			isa = PBXGroup;
 			children = (
+				D04B3EB72D68CCD600D0DB71 /* Mock */,
 				D04B3E8D2D68BD1400D0DB71 /* LWWElementDictionaryTests.swift */,
 				D04B3EAF2D68CB8500D0DB71 /* ThreadSafeLWWElementDictionaryTests.swift */,
+				D04B3EB52D68CCCA00D0DB71 /* LWWDictionaryViewModelTests.swift */,
 			);
 			path = LWWElementDictionaryTests;
 			sourceTree = "<group>";
@@ -180,6 +186,14 @@
 				D04B3EB32D68CC8400D0DB71 /* LWWDictionaryViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D04B3EB72D68CCD600D0DB71 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				D04B3EB82D68CCE200D0DB71 /* ViewModelDelegateMock.swift */,
+			);
+			path = Mock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,8 +341,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D04B3EB62D68CCCA00D0DB71 /* LWWDictionaryViewModelTests.swift in Sources */,
 				D04B3EB02D68CB8500D0DB71 /* ThreadSafeLWWElementDictionaryTests.swift in Sources */,
 				D04B3E8E2D68BD1400D0DB71 /* LWWElementDictionaryTests.swift in Sources */,
+				D04B3EB92D68CCE200D0DB71 /* ViewModelDelegateMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
