@@ -20,6 +20,7 @@
 		D04B3EAC2D68C0DA00D0DB71 /* LWWElementDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B3EAB2D68C0DA00D0DB71 /* LWWElementDictionary.swift */; };
 		D04B3EAE2D68C1F500D0DB71 /* ThreadSafeLWWElementDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B3EAD2D68C1F500D0DB71 /* ThreadSafeLWWElementDictionary.swift */; };
 		D04B3EB02D68CB8500D0DB71 /* ThreadSafeLWWElementDictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B3EAF2D68CB8500D0DB71 /* ThreadSafeLWWElementDictionaryTests.swift */; };
+		D04B3EB42D68CC8400D0DB71 /* LWWDictionaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B3EB32D68CC8400D0DB71 /* LWWDictionaryViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		D04B3EAB2D68C0DA00D0DB71 /* LWWElementDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LWWElementDictionary.swift; sourceTree = "<group>"; };
 		D04B3EAD2D68C1F500D0DB71 /* ThreadSafeLWWElementDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadSafeLWWElementDictionary.swift; sourceTree = "<group>"; };
 		D04B3EAF2D68CB8500D0DB71 /* ThreadSafeLWWElementDictionaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadSafeLWWElementDictionaryTests.swift; sourceTree = "<group>"; };
+		D04B3EB32D68CC8400D0DB71 /* LWWDictionaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LWWDictionaryViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +113,6 @@
 				D04B3EA62D68C08E00D0DB71 /* Utils */,
 				D04B3E762D68BD1200D0DB71 /* AppDelegate.swift */,
 				D04B3E782D68BD1200D0DB71 /* SceneDelegate.swift */,
-				D04B3E7A2D68BD1200D0DB71 /* ViewController.swift */,
 				D04B3E7C2D68BD1200D0DB71 /* Main.storyboard */,
 				D04B3E7F2D68BD1300D0DB71 /* Assets.xcassets */,
 				D04B3E812D68BD1300D0DB71 /* LaunchScreen.storyboard */,
@@ -149,6 +150,8 @@
 		D04B3EA92D68C0C300D0DB71 /* CRDT */ = {
 			isa = PBXGroup;
 			children = (
+				D04B3EB22D68CC6800D0DB71 /* ViewModel */,
+				D04B3EB12D68CC3F00D0DB71 /* View */,
 				D04B3EAA2D68C0CB00D0DB71 /* Model */,
 			);
 			path = CRDT;
@@ -161,6 +164,22 @@
 				D04B3EAD2D68C1F500D0DB71 /* ThreadSafeLWWElementDictionary.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		D04B3EB12D68CC3F00D0DB71 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D04B3E7A2D68BD1200D0DB71 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D04B3EB22D68CC6800D0DB71 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D04B3EB32D68CC8400D0DB71 /* LWWDictionaryViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +318,7 @@
 				D04B3EAE2D68C1F500D0DB71 /* ThreadSafeLWWElementDictionary.swift in Sources */,
 				D04B3E792D68BD1200D0DB71 /* SceneDelegate.swift in Sources */,
 				D04B3EAC2D68C0DA00D0DB71 /* LWWElementDictionary.swift in Sources */,
+				D04B3EB42D68CC8400D0DB71 /* LWWDictionaryViewModel.swift in Sources */,
 				D04B3EA82D68C0A100D0DB71 /* Logger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
