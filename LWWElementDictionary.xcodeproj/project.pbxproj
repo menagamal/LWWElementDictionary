@@ -17,6 +17,7 @@
 		D04B3E982D68BD1400D0DB71 /* LWWElementDictionaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B3E972D68BD1400D0DB71 /* LWWElementDictionaryUITests.swift */; };
 		D04B3E9A2D68BD1400D0DB71 /* LWWElementDictionaryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B3E992D68BD1400D0DB71 /* LWWElementDictionaryUITestsLaunchTests.swift */; };
 		D04B3EA82D68C0A100D0DB71 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B3EA72D68C0A100D0DB71 /* Logger.swift */; };
+		D04B3EAC2D68C0DA00D0DB71 /* LWWElementDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B3EAB2D68C0DA00D0DB71 /* LWWElementDictionary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D04B3E972D68BD1400D0DB71 /* LWWElementDictionaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LWWElementDictionaryUITests.swift; sourceTree = "<group>"; };
 		D04B3E992D68BD1400D0DB71 /* LWWElementDictionaryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LWWElementDictionaryUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D04B3EA72D68C0A100D0DB71 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		D04B3EAB2D68C0DA00D0DB71 /* LWWElementDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LWWElementDictionary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		D04B3E752D68BD1200D0DB71 /* LWWElementDictionary */ = {
 			isa = PBXGroup;
 			children = (
+				D04B3EA92D68C0C300D0DB71 /* CRDT */,
 				D04B3EA62D68C08E00D0DB71 /* Utils */,
 				D04B3E762D68BD1200D0DB71 /* AppDelegate.swift */,
 				D04B3E782D68BD1200D0DB71 /* SceneDelegate.swift */,
@@ -136,6 +139,22 @@
 				D04B3EA72D68C0A100D0DB71 /* Logger.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		D04B3EA92D68C0C300D0DB71 /* CRDT */ = {
+			isa = PBXGroup;
+			children = (
+				D04B3EAA2D68C0CB00D0DB71 /* Model */,
+			);
+			path = CRDT;
+			sourceTree = "<group>";
+		};
+		D04B3EAA2D68C0CB00D0DB71 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D04B3EAB2D68C0DA00D0DB71 /* LWWElementDictionary.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +291,7 @@
 				D04B3E7B2D68BD1200D0DB71 /* ViewController.swift in Sources */,
 				D04B3E772D68BD1200D0DB71 /* AppDelegate.swift in Sources */,
 				D04B3E792D68BD1200D0DB71 /* SceneDelegate.swift in Sources */,
+				D04B3EAC2D68C0DA00D0DB71 /* LWWElementDictionary.swift in Sources */,
 				D04B3EA82D68C0A100D0DB71 /* Logger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
