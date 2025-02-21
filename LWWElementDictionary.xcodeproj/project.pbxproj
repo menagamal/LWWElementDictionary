@@ -18,6 +18,7 @@
 		D04B3E9A2D68BD1400D0DB71 /* LWWElementDictionaryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B3E992D68BD1400D0DB71 /* LWWElementDictionaryUITestsLaunchTests.swift */; };
 		D04B3EA82D68C0A100D0DB71 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B3EA72D68C0A100D0DB71 /* Logger.swift */; };
 		D04B3EAC2D68C0DA00D0DB71 /* LWWElementDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B3EAB2D68C0DA00D0DB71 /* LWWElementDictionary.swift */; };
+		D04B3EAE2D68C1F500D0DB71 /* ThreadSafeLWWElementDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B3EAD2D68C1F500D0DB71 /* ThreadSafeLWWElementDictionary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		D04B3E992D68BD1400D0DB71 /* LWWElementDictionaryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LWWElementDictionaryUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D04B3EA72D68C0A100D0DB71 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		D04B3EAB2D68C0DA00D0DB71 /* LWWElementDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LWWElementDictionary.swift; sourceTree = "<group>"; };
+		D04B3EAD2D68C1F500D0DB71 /* ThreadSafeLWWElementDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadSafeLWWElementDictionary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				D04B3EAB2D68C0DA00D0DB71 /* LWWElementDictionary.swift */,
+				D04B3EAD2D68C1F500D0DB71 /* ThreadSafeLWWElementDictionary.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 			files = (
 				D04B3E7B2D68BD1200D0DB71 /* ViewController.swift in Sources */,
 				D04B3E772D68BD1200D0DB71 /* AppDelegate.swift in Sources */,
+				D04B3EAE2D68C1F500D0DB71 /* ThreadSafeLWWElementDictionary.swift in Sources */,
 				D04B3E792D68BD1200D0DB71 /* SceneDelegate.swift in Sources */,
 				D04B3EAC2D68C0DA00D0DB71 /* LWWElementDictionary.swift in Sources */,
 				D04B3EA82D68C0A100D0DB71 /* Logger.swift in Sources */,
