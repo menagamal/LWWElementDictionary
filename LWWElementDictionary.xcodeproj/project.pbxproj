@@ -23,6 +23,7 @@
 		D04B3EB42D68CC8400D0DB71 /* LWWDictionaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B3EB32D68CC8400D0DB71 /* LWWDictionaryViewModel.swift */; };
 		D04B3EB62D68CCCA00D0DB71 /* LWWDictionaryViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B3EB52D68CCCA00D0DB71 /* LWWDictionaryViewModelTests.swift */; };
 		D04B3EB92D68CCE200D0DB71 /* ViewModelDelegateMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B3EB82D68CCE200D0DB71 /* ViewModelDelegateMock.swift */; };
+		D0E64CC32D6A92D80072F0C5 /* ThreadSafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E64CC22D6A92D80072F0C5 /* ThreadSafe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		D04B3EB32D68CC8400D0DB71 /* LWWDictionaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LWWDictionaryViewModel.swift; sourceTree = "<group>"; };
 		D04B3EB52D68CCCA00D0DB71 /* LWWDictionaryViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LWWDictionaryViewModelTests.swift; sourceTree = "<group>"; };
 		D04B3EB82D68CCE200D0DB71 /* ViewModelDelegateMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelDelegateMock.swift; sourceTree = "<group>"; };
+		D0E64CC22D6A92D80072F0C5 /* ThreadSafe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadSafe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				D04B3EA72D68C0A100D0DB71 /* Logger.swift */,
+				D0E64CC22D6A92D80072F0C5 /* ThreadSafe.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 			files = (
 				D04B3E7B2D68BD1200D0DB71 /* ViewController.swift in Sources */,
 				D04B3E772D68BD1200D0DB71 /* AppDelegate.swift in Sources */,
+				D0E64CC32D6A92D80072F0C5 /* ThreadSafe.swift in Sources */,
 				D04B3EAE2D68C1F500D0DB71 /* ThreadSafeLWWElementDictionary.swift in Sources */,
 				D04B3E792D68BD1200D0DB71 /* SceneDelegate.swift in Sources */,
 				D04B3EAC2D68C0DA00D0DB71 /* LWWElementDictionary.swift in Sources */,
